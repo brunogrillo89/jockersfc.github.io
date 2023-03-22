@@ -81,7 +81,7 @@
    <div class="w3-content w3-padding" style="max-width:1564px">
 
     <!-- Sección Arquero-->
-    <div class="w3-container w3-card w3-white w3-margin-bottom" id="cursos">
+    <div class="w3-container w3-card w3-white w3-margin-bottom" id="arquero">
         <div class="w3-container w3-padding-16 w3-center">
           <h2 class="w3-border-bottom w3-border-light-yellow w3-text-yellow"><b>ARQUERO</b></h2>
         </div>
@@ -90,14 +90,19 @@
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <img src="Imágenes/Plantel/Malu.jpg" alt="Malu" style="width:100%">
                 <h3>Germán Bustos (Malu)</h3>
-                <p>Nuestro arquero, dueño de los 3 palos. Si bien todos esperarian un apodo como "La Muralla" , 
-                "Dibu", "Goyco", no están ni cerca, el nuestro es "Maluma" la explicación del mismo las dejo a su 
-                criterio. Valla menos vencida en los últimos campeonatos, referente en su puesto , todo esto 
-                gracias al coaching de su pareja, de ahora en adelante "La Diabla". La gestión de "La Diaba" es 
-                impecable, agarro a un vago perdido en las oscuras noches de La Domi, Jufre y lo convirtio en un 
-                hombre de bien. Ahora desayuna 3 tostadas de pan integral libre de gluten con un cafe con leche, 
-                distante a esos desayunos con Beto Campos y Nano Vazquez. El contenido de esos desayunos no pueden 
-                ser relevados ya que cuidaremos la integridad de sus participantes.</p>
+                <button onclick="maluFunc('malu')" class="w3-padding w3-theme w3-button w3-block">Descripción del jugador</button>
+                <div id="malu" class="w3-hide">
+                    <div class="w3-container">
+                        <p>Nuestro arquero, dueño de los 3 palos. Si bien todos esperarian un apodo como "La Muralla", 
+                        "Dibu", "Goyco", no están ni cerca, el nuestro es "Maluma" la explicación del mismo las dejo a su 
+                        criterio. Valla menos vencida en los últimos campeonatos, referente en su puesto, todo esto 
+                        gracias al coaching de su pareja, de ahora en adelante "La Diabla". La gestión de "La Diaba" es 
+                        impecable, agarro a un vago perdido en las oscuras noches de La Domi, Jufre y lo convirtio en un 
+                        hombre de bien. Ahora desayuna 3 tostadas de pan integral libre de gluten con un cafe con leche, 
+                        distante a esos desayunos con Beto Campos y Nano Vazquez. El contenido de esos desayunos no pueden 
+                        ser relevados ya que cuidaremos la integridad de sus participantes.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -112,52 +117,72 @@
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <img src="Imágenes/Plantel/Javi Amat.jpg" alt="Javier Amat" style="width:100%">
                 <h3>Javier Amat</h3>
-                <p>Una de las caras bonitas del plantel, lateral izquierdo dueño de una zurda prodigiosa (no al 
-                chiste fácil), pegada exquisita, precisión en pases de corto y largo alcance, buena llegada al 
-                gol. Si hablamos de la parte defensiva, un tipazo, padre de familia con 2 hermosas nenas. En las 
-                espaldas de nuestro querido lateral puede pasar de todo desde un cumpleaños de 15 hasta un bautismo. 
-                Cuenta la leyenda que en un partido final de campeonato pide el cambio por un aparente desgarro de 7cm 
-                de largo por 4 cm de ancho, esa noche en el festejo del campeonato se lo vio menear hasta el piso sin 
-                ningún problema. Javi favor de dejar el número del kinesiologo por acá ante rapisima recuperación.</p>
+                <button onclick="javitoFunc('javito')" class="w3-padding w3-theme w3-button w3-block">Descripción del jugador</button>
+                <div id="javito" class="w3-hide">
+                    <div class="w3-container">
+                        <p>Una de las caras bonitas del plantel, lateral izquierdo dueño de una zurda prodigiosa (no al 
+                        chiste fácil), pegada exquisita, precisión en pases de corto y largo alcance, buena llegada al 
+                        gol. Si hablamos de la parte defensiva, un tipazo, padre de familia con 2 hermosas nenas. En las 
+                        espaldas de nuestro querido lateral puede pasar de todo desde un cumpleaños de 15 hasta un bautismo. 
+                        Cuenta la leyenda que en un partido final de campeonato pide el cambio por un aparente desgarro de 7cm 
+                        de largo por 4 cm de ancho, esa noche en el festejo del campeonato se lo vio menear hasta el piso sin 
+                        ningún problema. Javi favor de dejar el número del kinesiologo por acá ante rapisima recuperación.</p>
+                    </div>
+                </div>
             </div>
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <img src="Imágenes/Plantel/Chizzo Lirio.jpg" alt="Chizzo Lirio" style="width:100%">
-                <h3>Daniel "Chizzo" Lirio</h3>
-                <p>El gerente del equipo, lateral derecho pero los de antes, velocidad y juego agerrido. 
-                Dinámica increible , 2 tipos de pases, ladrillo y ladrillon, pierna hábil? Es todo un tema. 
-                Las estadisticas hablan por si solas del desempeño de este increible jugador: 4 goles, 16 
-                disputas aéreas ganadas, 15 empresas creadas, 4 offshore,  37 "08" firmados , de los cuáles 
-                solo 36 erán de dudosa procedencia, 1 hijo. Si uno cree que la teoria de la relatividad es 
-                dificil de entender , te invito a escuchar un audio de nuestro lateral , si si en 1X.</p>
+                <h3>Daniel Lirio (Chizzo)</h3>
+                <button onclick="chizzoFunc('chizzo')" class="w3-padding w3-theme w3-button w3-block">Descripción del jugador</button>
+                <div id="chizzo" class="w3-hide">
+                    <div class="w3-container">
+                        <p>El gerente del equipo, lateral derecho pero los de antes, velocidad y juego agerrido. 
+                        Dinámica increible , 2 tipos de pases, ladrillo y ladrillon, pierna hábil? Es todo un tema. 
+                        Las estadisticas hablan por si solas del desempeño de este increible jugador: 4 goles, 16 
+                        disputas aéreas ganadas, 15 empresas creadas, 4 offshore,  37 "08" firmados , de los cuáles 
+                        solo 36 erán de dudosa procedencia, 1 hijo. Si uno cree que la teoria de la relatividad es 
+                        dificil de entender , te invito a escuchar un audio de nuestro lateral , si si en 1X.</p>
+                    </div>
+                </div>
             </div>
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <img src="Imágenes/Plantel/Nico Soto.jpg" alt="Nico Soto" style="width:100%">
                 <h3>Nico "Penal" Soto</h3>
-                <p>Uno de los centrales de nuestro equipo, buen juego aéreo, velocidad y estado fisico 
-                privilegiado. Yemen es uno de los paises más peligrosos del mundo, pero comparado con los 
-                pases en corto de nuestro central es Disney. Nos acompaña desde el inicio allá por el 2008, 
-                donde se formo una de las primeras parejas de centrales más ganadoras; él con el querido 
-                Gaston Carosio. La misma duro hasta que la novia de Nicolás se entero del amorio entre los 
-                jugadores. Desde ahí el equipo tomo por política que los centrales deben portar bigote y no 
-                tener más de 2 redes sociales. Estadisticas generales del último partido de nuestro central: 
-                14km recorridos, 10 duelos ganados, 45 discusiones con Chito y 4 penales cometidos de los 
-                cúales solo 5 fueron ( usted esta pensando que hay un error?? error fue el del arbitro que no 
-                cobro el quinto penal).</p>
+                <button onclick="sotoFunc('soto')" class="w3-padding w3-theme w3-button w3-block">Descripción del jugador</button>
+                <div id="soto" class="w3-hide">
+                    <div class="w3-container">
+                        <p>Uno de los centrales de nuestro equipo, buen juego aéreo, velocidad y estado fisico 
+                        privilegiado. Yemen es uno de los paises más peligrosos del mundo, pero comparado con los 
+                        pases en corto de nuestro central es Disney. Nos acompaña desde el inicio allá por el 2008, 
+                        donde se formo una de las primeras parejas de centrales más ganadoras; él con el querido 
+                        Gaston Carosio. La misma duro hasta que la novia de Nicolás se entero del amorio entre los 
+                        jugadores. Desde ahí el equipo tomo por política que los centrales deben portar bigote y no 
+                        tener más de 2 redes sociales. Estadisticas generales del último partido de nuestro central: 
+                        14km recorridos, 10 duelos ganados, 45 discusiones con Chito y 4 penales cometidos de los 
+                        cúales solo 5 fueron ( usted esta pensando que hay un error?? error fue el del arbitro que no 
+                        cobro el quinto penal).</p>
+                    </div>
+                </div>
             </div>
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <img src="Imágenes/Plantel/Francisco Navas.jpg" alt="Chito" style="width:100%">
-                <h3>Francisco "Chito" Navas</h3>
-                <p>Posiblemente lo recordarán por comentarios positivos como "Los amarillos son los nuestros" o 
-                "no le tengan miedo si es una pelota" (en los registros históricos del club no se detallan 
-                comentarios positivos pero dicen que en 1923 terminando la primaria soltó un comentario positivo 
-                como hace actualmente con la marca). También lo recordarán por sus ídolos liuzzi y landa. Si 
-                señores, nos toca hablar del Sr. F.Navas. Es difícil en breve palabras resumir los 15 años de 
-                trayectoria pero siempre se destacó por su excelente 3 dedos, sus salidas limpias desde el fondo 
-                sin ningún riesgo, su positivismo y su habilidad para dejar la marca sola. Uno de sus hitos en el 
-                equipo fue un asado realizado un lunes feriado en su casa donde varios de los jugadores acudieron 
-                al dentista entresemana por la dureza de la carne adquirida. Su mayor deseo en el equipo es volver 
-                a lucir la melena que data del 2009 donde se daba el lujo de lucir una colita (sin lugar a chiste 
-                fácil).</p>
+                <h3>Francisco Navas (Chito)</h3>
+                <button onclick="chitoFunc('chito')" class="w3-padding w3-theme w3-button w3-block">Descripción del jugador</button>
+                <div id="chito" class="w3-hide">
+                    <div class="w3-container">
+                        <p>Posiblemente lo recordarán por comentarios positivos como "Los amarillos son los nuestros" o 
+                        "no le tengan miedo si es una pelota" (en los registros históricos del club no se detallan 
+                        comentarios positivos pero dicen que en 1923 terminando la primaria soltó un comentario positivo 
+                        como hace actualmente con la marca). También lo recordarán por sus ídolos liuzzi y landa. Si 
+                        señores, nos toca hablar del Sr. F.Navas. Es difícil en breve palabras resumir los 15 años de 
+                        trayectoria pero siempre se destacó por su excelente 3 dedos, sus salidas limpias desde el fondo 
+                        sin ningún riesgo, su positivismo y su habilidad para dejar la marca sola. Uno de sus hitos en el 
+                        equipo fue un asado realizado un lunes feriado en su casa donde varios de los jugadores acudieron 
+                        al dentista entresemana por la dureza de la carne adquirida. Su mayor deseo en el equipo es volver 
+                        a lucir la melena que data del 2009 donde se daba el lujo de lucir una colita (sin lugar a chiste 
+                        fácil).</p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -263,7 +288,12 @@
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <img src="Imágenes/Plantel/Orlando Gomez.jpg" alt="Orlando Gomez" style="width:100%">
                 <h3>Orlando Gomez (Orly)</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus voluptatem, error vitae tempore possimus consectetur exercitationem autem ab nostrum adipisci ad, laboriosam nesciunt nihil ipsam excepturi perspiciatis? Non, repudiandae! Dolores?</p>
+                <button onclick="myAccFunc('Demo1')" class="w3-padding w3-theme w3-button w3-block">Descripción del jugador</button>
+                <div id="Demo1" class="w3-hide">
+                    <div class="w3-container">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
             </div>
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <img src="Imágenes/Plantel/Nico Greco.jpg" alt="Nicolas Greco" style="width:100%">
