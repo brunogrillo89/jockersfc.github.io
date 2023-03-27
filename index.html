@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Francisco Guevara" />
+    <meta property="og:title" content="Jockers F.C." />
     <meta property=”og:image” content=”https://raw.githubusercontent.com/brunogrillo89/brunogrillo89.github.io/a865273cbc7046210620b010d24176ad9ee91c2e/Imagenes/Bruno%20Grillo.JPG” />
-    <meta property=”og:description” content="Landing Page del Crurriculum Vitae de Bruno Grillo" />
+    <meta property=”og:description” content="Equipo de Fútbol que milita en la categoría Libres A de Liga de Profesionales de Fútbol de la Provincia de San Juan." />
     <meta property=”og:type” content=”website” />
     <meta property=”og:url” content=”https://brunogrillo89.github.io/” />
     <link rel="stylesheet" href="CSS/estilos.css">
@@ -48,33 +48,25 @@
   <div class="w3-top">
     <div class="w3-bar w3-wide w3-padding w3-card w3-black">
       <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-yellow w3-large w3-black w3-text-yellow" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-      <!--<a href="#home" class="w3-bar-item w3-button"><b class="w3-text-teal">CV</b> Francisco Guevara</a>-->
-      <img href="#home" width="106" height="51" class="w3-bar-item w3-button w3-padding" src="Imágenes/Logo jockers sin fondo.png" alt="Logo Jockers">
+      <a href="#home"><img width="106" height="51" class="w3-bar-item w3-button w3-padding" src="Imágenes/Logo jockers sin fondo.png" alt="Logo Jockers"></a>
       <!-- Links flotantes hacia la derecha -->
       <div class="w3-right w3-hide-small">
         <a href="#sobrenosotros" class="w3-bar-item w3-button w3-text-yellow"> Sobre Nosotros</a>
-        <!--<a href="#experiencia" class="w3-bar-item w3-button w3-text-white">Experiencia</a>-->
         <a href="#timeline" class="w3-bar-item w3-button w3-text-yellow">Historia</a>
-        <!--<a href="#contacto" class="w3-bar-item w3-button w3-text-white">Contacto</a>-->
         <a href="#plantel" class="w3-bar-item w3-button w3-text-yellow">Plantel</a>
       </div>
     </div>
     <!-- Navbar para celulares -->
     <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-large">
       <a href="#sobrenosotros" class="w3-bar-item w3-button w3-padding-large w3-text-yellow">Sobre Nosotros</a>
-      <!--<a href="#experiencia" class="w3-bar-item w3-button w3-padding-large w3-text-white">Experiencia</a>-->
       <a href="#timeline" class="w3-bar-item w3-button w3-padding-large w3-text-yellow">Historia</a>
-      <!--<a href="#contacto" class="w3-bar-item w3-button w3-padding-large w3-text-white">Contacto</a>-->
       <a href="#plantel" class="w3-bar-item w3-button w3-padding-large w3-text-yellow">Plantel</a>
     </div>
   </div>
   
   <!-- Imágen de Encabezado -->
   <header class="w3-display-container w3-content w3-margin-top" style="max-width:1500px;" id="home">
-    <img class="w3-image" src="Imágenes/Jockers FC Interprovincial.jpg" alt="Jockers F.C. header" width="1500" height="800">
-    <!--<div class="w3-display-middle w3-margin-top w3-center">
-      <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b class="w3-text-teal">FG</b></span> <span class="w3-hide-small w3-text-light-grey">Francisco Guevara</span></h1>
-    </div>-->
+    <img class="w3-image" src="Imágenes/Portada Jockers 15 años.jpg" alt="Jockers F.C. header" width="1500" height="800">
   </header>
 
    <!-- Contenido de la Página -->
@@ -129,7 +121,12 @@
           <h2>2008</h2>
           <img class="w3-image" src="Imágenes/Fotos TimeLapse/Jockers Cat D - 2008.jpeg" alt="Jockers 2008">
           <h4>Liga Universitaria - Cat. D</h4>
-          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          <button onclick="TimeLine2008Func('TimeLine2008')" class="w3-padding w3-theme-v2 w3-button w3-block">Leer más</button>
+          <div id="TimeLine2008" class="w3-hide">
+            <div class="w3-container">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deserunt totam, necessitatibus voluptate qui debitis consectetur nemo obcaecati at temporibus nisi? At ducimus amet deleniti saepe iste provident eaque vero.</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="container right">
@@ -137,15 +134,25 @@
           <h2>2009</h2>
           <img class="w3-image" src="Imágenes/Fotos TimeLapse/Jackers Campeon Cat. C - 2009.jpg" alt="Jockers 2008">
           <h4>Liga Universitaria - Cat. C</h4>
-          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          <button onclick="TimeLine2009Func('TimeLine2009')" class="w3-padding w3-theme-v2 w3-button w3-block">Leer más</button>
+          <div id="TimeLine2009" class="w3-hide">
+            <div class="w3-container">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deserunt totam, necessitatibus voluptate qui debitis consectetur nemo obcaecati at temporibus nisi? At ducimus amet deleniti saepe iste provident eaque vero.</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="container left">
         <div class="content">
           <h2>2015</h2>
           <img class="w3-image" src="Imágenes/Fotos TimeLapse/Jackers Campeon Copa Challenger - 2015.jpg" alt="Jockers Campéon Copa Challenger 2015">
-          <h4>Campeón Copa Challenger</h4>
-          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          <h4>Liga Universitaria - Copa Challenger</h4>
+          <button onclick="TimeLine2015Func('TimeLine2015')" class="w3-padding w3-theme-v2 w3-button w3-block">Leer más</button>
+          <div id="TimeLine2015" class="w3-hide">
+            <div class="w3-container">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deserunt totam, necessitatibus voluptate qui debitis consectetur nemo obcaecati at temporibus nisi? At ducimus amet deleniti saepe iste provident eaque vero.</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="container right">
@@ -153,7 +160,12 @@
           <h2>2016</h2>
           <img class="w3-image" src="Imágenes/Fotos TimeLapse/Jackers Campeon Cat. A - 2016 (Nante).jpg" alt="Jockers Campeon Cat. A 2016">
           <h4>Liga Universitaria - Cat. A</h4>
-          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          <button onclick="TimeLine2016Func('TimeLine2016')" class="w3-padding w3-theme-v2 w3-button w3-block">Leer más</button>
+          <div id="TimeLine2016" class="w3-hide">
+            <div class="w3-container">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deserunt totam, necessitatibus voluptate qui debitis consectetur nemo obcaecati at temporibus nisi? At ducimus amet deleniti saepe iste provident eaque vero.</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="container left">
@@ -161,23 +173,38 @@
           <h2>2017</h2>
           <img class="w3-image" src="Imágenes/Fotos TimeLapse/Jackers Campeon Cat. A - 2016 (Nante).jpg" alt="Jockers Campeon Cat. A 2016">
           <h4>Liga de Profesionales - Campéon Libres B y Libres A</h4>
-          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          <button onclick="TimeLine2017Func('TimeLine2017')" class="w3-padding w3-theme-v2 w3-button w3-block">Leer más</button>
+          <div id="TimeLine2017" class="w3-hide">
+            <div class="w3-container">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deserunt totam, necessitatibus voluptate qui debitis consectetur nemo obcaecati at temporibus nisi? At ducimus amet deleniti saepe iste provident eaque vero.</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="container right">
         <div class="content">
           <h2>2019</h2>
           <img class="w3-image" src="Imágenes/Fotos TimeLapse/Jackers Pentacampeon Libres A - Apertura 2019.jpg" alt="Jockers Tricampeon Libres A2019">
-          <h4>Liga de Profesionales - Tricampeones Libres A</h4>
-          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          <h4>Liga de Profesionales - Tricampeón Libres A</h4>
+          <button onclick="TimeLine2019Func('TimeLine2019')" class="w3-padding w3-theme-v2 w3-button w3-block">Leer más</button>
+          <div id="TimeLine2019" class="w3-hide">
+            <div class="w3-container">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deserunt totam, necessitatibus voluptate qui debitis consectetur nemo obcaecati at temporibus nisi? At ducimus amet deleniti saepe iste provident eaque vero.</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="container left">
         <div class="content">
           <h2>2021</h2>
           <img class="w3-image" src="Imágenes/Fotos TimeLapse/Jackers Pentacampeon Libres A - Apertura 2021.jpg" alt="Jockers Campeon Cat. A 2016">
-          <h4>Liga de Profesionales - Tricampeones Libres A</h4>
-          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          <h4>Liga de Profesionales - Tricampeón Libres A</h4>
+          <button onclick="TimeLine2021Func('TimeLine2021')" class="w3-padding w3-theme-v2 w3-button w3-block">Leer más</button>
+          <div id="TimeLine2021" class="w3-hide">
+            <div class="w3-container">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deserunt totam, necessitatibus voluptate qui debitis consectetur nemo obcaecati at temporibus nisi? At ducimus amet deleniti saepe iste provident eaque vero.</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="container right">
@@ -185,7 +212,12 @@
           <h2>2022</h2>
           <img class="w3-image" src="Imágenes/Fotos TimeLapse/Jackers Campeon Cat. A - 2016 (Nante).jpg" alt="Jockers Campeon Cat. A 2016">
           <h4>Liga de Profesionales - Campeón Clausura Libres A</h4>
-          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          <button onclick="TimeLine2022Func('TimeLine2022')" class="w3-padding w3-theme-v2 w3-button w3-block">Leer más</button>
+          <div id="TimeLine2022" class="w3-hide">
+            <div class="w3-container">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deserunt totam, necessitatibus voluptate qui debitis consectetur nemo obcaecati at temporibus nisi? At ducimus amet deleniti saepe iste provident eaque vero.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -193,13 +225,18 @@
 
     
 
-    <!-- Imágen de cierre -->
+    <!-- Imágen Plantel Actual -->
     <div class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="plantel">
         <img src="Imágenes/Fotos TimeLapse/Jackers Pentacampeon Libres A - Apertura 2019 (Plantel).jpg" class="w3-image" width="1500">
         <div class="w3-display-middle w3-margin-top w3-center">
           <h1 class="w3-xxlarge w3-text-white"><span class="w3-hide-small w3-text-light-grey">Conoce a los jugadores que conforman el plantel 2023</span></h1>
           <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b class="w3-text-yellow w3-button"><a href="plantel2023.html">Plantel 2023!</a></b></span></h1>
         </div>
+    </div>
+
+    <!-- Imágen Sponsors -->
+    <div class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="sponsors">
+      <img src="Imágenes/JKS Sponsors.jpg" class="w3-image" width="1500" alt="sponsors jks">
     </div>
   
   <!-- Fin del contenido de la página -->

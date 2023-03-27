@@ -242,3 +242,75 @@ function gringoFunc() {
     x.className = x.className.replace(" w3-show", "");
   }
 }
+
+function TimeLine2008Func() {
+  var x = document.getElementById("TimeLine2008");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function TimeLine2009Func() {
+  var x = document.getElementById("TimeLine2009");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function TimeLine2015Func() {
+  var x = document.getElementById("TimeLine2015");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function TimeLine2016Func() {
+  var x = document.getElementById("TimeLine2016");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function TimeLine2017Func() {
+  var x = document.getElementById("TimeLine2017");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function TimeLine2019Func() {
+  var x = document.getElementById("TimeLine2019");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function TimeLine2021Func() {
+  var x = document.getElementById("TimeLine2021");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function TimeLine2022Func() {
+  var x = document.getElementById("TimeLine2022");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
