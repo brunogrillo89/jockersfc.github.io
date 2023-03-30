@@ -216,8 +216,8 @@ function chanchiFunc() {
   }
 }
 
-function chanchiFunc() {
-  var x = document.getElementById("chanchi");
+function cañonFunc() {
+  var x = document.getElementById("cañon");
   if (x.className.indexOf("w3-show") == -1) {
     x.className += " w3-show";
   } else { 
@@ -236,6 +236,51 @@ function cristianFunc() {
 
 function gringoFunc() {
   var x = document.getElementById("gringo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function enanoFunc() {
+  var x = document.getElementById("enano");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function piyoFunc() {
+  var x = document.getElementById("piyo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function patonFunc() {
+  var x = document.getElementById("paton");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function rotondaFunc() {
+  var x = document.getElementById("rotonda");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function getaFunc() {
+  var x = document.getElementById("geta");
   if (x.className.indexOf("w3-show") == -1) {
     x.className += " w3-show";
   } else { 
