@@ -234,8 +234,8 @@ function cristianFunc() {
   }
 }
 
-function gringoFunc() {
-  var x = document.getElementById("gringo");
+function cerveraFunc() {
+  var x = document.getElementById("cervera");
   if (x.className.indexOf("w3-show") == -1) {
     x.className += " w3-show";
   } else { 
