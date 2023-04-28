@@ -288,6 +288,23 @@ function getaFunc() {
   }
 }
 
+function toroFunc() {
+  var x = document.getElementById("toro");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function guachoFunc() {
+  var x = document.getElementById("guacho");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
 function TimeLine2008Func() {
   var x = document.getElementById("TimeLine2008");
   if (x.className.indexOf("w3-show") == -1) {
